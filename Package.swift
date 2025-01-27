@@ -2,23 +2,23 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftYouTubePlayer",
+    name: "Swift-YouTube-Player", // Updated name
     platforms: [
-        .iOS(.v13),
-        .macOS(.v10_15)
+        .iOS(.v13)
     ],
     products: [
         .library(
-            name: "SwiftYouTubePlayer",
-            targets: ["SwiftYouTubePlayer"]
+            name: "Swift-YouTube-Player",
+            targets: ["Swift-YouTube-Player"]
         ),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "SwiftYouTubePlayer",
+            name: "Swift-YouTube-Player", // Updated name
             dependencies: [],
             path: "YouTubePlayer"
         )
     ]
 )
+
