@@ -1,4 +1,4 @@
-// swift-tools-version: 5.3
+// swift-tools-version: 5.7
 import PackageDescription
 
 let package = Package(
@@ -13,11 +13,12 @@ let package = Package(
             targets: ["SwiftYouTubePlayer"]
         ),
     ],
+    dependencies: [],
     targets: [
         .target(
             name: "SwiftYouTubePlayer",
-            path: ".",
-            exclude: ["Example"]
+            dependencies: [],
+            path: "YouTubePlayer"
         )
     ]
 )
